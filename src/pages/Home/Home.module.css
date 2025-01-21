@@ -1,0 +1,26 @@
+.home {
+  padding: 1rem;
+}
+
+.banner {
+  background-image: url("/path-to-your-banner-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.category {
+  margin-bottom: 2rem;
+}
+
+.videoList {
+  display: flex;
+  overflow-x: auto;
+  padding: 1rem 0;
+}
+
