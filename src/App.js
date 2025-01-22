@@ -9,7 +9,7 @@ import { VideoProvider } from "./contexts/VideoContext"
 function App() {
   return (
     <VideoProvider>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="App">
           <Header />
           <Switch>
