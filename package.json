@@ -1,6 +1,7 @@
 {
   "name": "aluraflix",
   "version": "1.0.0",
+  "main": "src/index.js",  // Verifica que aquí apunte correctamente al archivo
   "private": true,
   "homepage": "https://ingacevedo2006.github.io/FinalDesafioAlura",
   "dependencies": {
